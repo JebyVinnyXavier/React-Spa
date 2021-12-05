@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Content from "./Content";
-import Header from "./Header";
+import Main from "./Main";
 import  "./Spa.css";
  
 ReactDOM.render(
-  <Header/>,
-   <Content/>,
+     <Main/>,
+    <Content/>,
+     
      document.getElementById("root")
-)
+);
