@@ -1,12 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Content from "./Content";
-import Main from "./Main";
+//import Main from "./Main";
 import  "./Spa.css";
+import App from "./App";
+//import HomePage from "./HomePage";
+
  
 ReactDOM.render(
-     <Main/>,
-    <Content/>,
-     
-     document.getElementById("root")
+  <React.StrictMode>
+    <App />
+    
+     </React.StrictMode>,
+        
+    document.getElementById("root")
 );

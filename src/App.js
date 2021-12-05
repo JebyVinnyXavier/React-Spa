@@ -1,9 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './Spa.css';
+import Main from './Main';
+//import Content from './HomePage';
+import HomePage from './HomePage';
 
 function App() {
   return (
-    <div className="App">
+   <div class="content">
+    
+         <Main/>
+         <HomePage/>
+   </div>
+   
+    /*<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,8 +26,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
+      </header>*/
+    
   );
 }
 

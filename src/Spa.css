@@ -3,8 +3,7 @@ body {
     padding: 20px;
     margin: 0;
   }
-  h1, p, ul, li
-   {
+  h1,p, ul, li {
     font-family: Arial, Helvetica, sans-serif;
   }
   ul.header li {
@@ -22,10 +21,9 @@ body {
     padding: 20px;
   }
   
-  .content li {
-    margin-bottom: 5px;
+    .content li {
+    margin-bottom: 10px;
   }
-
   
 
 

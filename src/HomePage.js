@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
  
-class Content extends Component {
+class HomePage extends Component {
   render() {
     return (
       <div>

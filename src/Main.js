@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Content from "./Content";
+//import HomePage from "./HomePage";
  
 class Main extends Component {
   render() {
@@ -11,7 +11,7 @@ class Main extends Component {
             <li>Stuff</li>
             <li>Contact</li>
           </ul>
-          <div className = "content">
+          /*<div className = "content">*/
 
           </div>
                      
