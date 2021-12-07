@@ -11,11 +11,10 @@ class Main extends Component {
             <li>Stuff</li>
             <li>Contact</li>
           </ul>
-          /*<div className = "content">*/
-
+         
           </div>
                      
-          </div>
+         
         
     );
   }

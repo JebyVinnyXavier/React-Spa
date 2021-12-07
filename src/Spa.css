@@ -5,15 +5,22 @@ body {
   }
   h1,p, ul, li {
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: blanchedalmond;
   }
-  ul.header li {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
+  .header li {
+     display: inline;
+  width: 20px;
+  height: 50px;
+  padding: 50px;
+  list-style-type:none;
+     margin-top: 100px;
+     color: white;
+    
   }
   ul.header {
     background-color: #111;
     padding: 0;
+    height: 80px;
   }
   
   .content {

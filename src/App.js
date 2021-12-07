@@ -1,7 +1,6 @@
 
 import './Spa.css';
 import Main from './Main';
-//import Content from './HomePage';
 import HomePage from './HomePage';
 
 function App() {
